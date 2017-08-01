@@ -27120,7 +27120,7 @@
 											{ className: 'navbar-header' },
 											_react2.default.createElement(
 													_reactRouterDom.Link,
-													{ className: 'navbar-brand', to: '/portfolio' },
+													{ className: 'navbar-brand', to: '/' },
 													'Maggie Storino'
 											)
 									),
