@@ -373,13 +373,13 @@ ul.aboutLinks li:hover{
 }
 
 .codeHero {
-	min-height: 400px;
+	min-height: 300px;
 	/*border-top: 10px solid papayawhip;
 	border-bottom: 10px solid mistyrose;
 	border-right: 10px solid papayawhip;
 	border-left: 10px solid mistyrose;*/
 	/*padding-top:20px;*/
-	padding-bottom:30px;
+/*	padding-bottom:30px;*/
 
 	padding-top:5%;
 
