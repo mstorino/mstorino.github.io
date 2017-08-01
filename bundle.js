@@ -27356,7 +27356,8 @@
 	                'My apps are below.  If you have a second, ',
 	                _react2.default.createElement('br', null),
 	                ' click one to see the details.'
-	              )
+	              ),
+	              _react2.default.createElement('img', { className: 'unicorn', alt: 'github', src: '/assets/img/unicorn.png' })
 	            )
 	          )
 	        ),
