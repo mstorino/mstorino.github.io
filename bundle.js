@@ -116,11 +116,12 @@
 	//Import items from react-router-dom, BROWSER ROUTER interacts w/ History library and decides waht to do based on URL. Tells router to look at entire URL depending on components on screen.
 	//ROUTE work horse of react-router, provides config that says if URL looks like x show x component.  Provides customization to React Router
 
+	// import { BrowserRouter, Route, Switch } from 'react-router-dom';
 	_reactDom2.default.render(_react2.default.createElement(
 			_reactRedux.Provider,
 			{ store: createStoreWithMiddleware(_reducers2.default) },
 			_react2.default.createElement(
-					_reactRouterDom.BrowserRouter,
+					_reactRouterDom.HashRouter,
 					null,
 					_react2.default.createElement(
 							'div',
@@ -128,10 +129,10 @@
 							_react2.default.createElement(
 									_reactRouterDom.Switch,
 									null,
-									_react2.default.createElement(_reactRouterDom.Route, { path: '/blog', component: _blog2.default }),
-									_react2.default.createElement(_reactRouterDom.Route, { path: '/code', component: _code2.default }),
-									_react2.default.createElement(_reactRouterDom.Route, { path: '/contact', component: _contact2.default }),
-									_react2.default.createElement(_reactRouterDom.Route, { path: '/', component: _home2.default })
+									_react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/blog', component: _blog2.default }),
+									_react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/code', component: _code2.default }),
+									_react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/contact', component: _contact2.default }),
+									_react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _home2.default })
 							)
 					)
 			)

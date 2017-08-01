@@ -6,7 +6,9 @@ import { createStore, applyMiddleware } from 'redux';
 //Import items from react-router-dom, BROWSER ROUTER interacts w/ History library and decides waht to do based on URL. Tells router to look at entire URL depending on components on screen.
 //ROUTE work horse of react-router, provides config that says if URL looks like x show x component.  Provides customization to React Router
 
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+// import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch, Link } from 'react-router-dom';
+
 import promise from 'redux-promise';
 
 // import App from './components/app';
@@ -31,18 +33,18 @@ const createStoreWithMiddleware = applyMiddleware()(createStore);
 
 ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducers)}>
-	   <BrowserRouter>
+	   <HashRouter>
 	   		<div>
 	   			
 	   			<Switch>
-			   		<Route path ="/blog" component={Blog} />
-			   		<Route path="/code" component={Code} />
-			   		<Route path="/contact" component={Contact} />
-			   		<Route path ="/" component={Home} />
+			   		<Route exact path ="/blog" component={Blog} />
+			   		<Route exact path="/code" component={Code} />
+			   		<Route exact path="/contact" component={Contact} />
+			   		<Route exact path ="/" component={Home} />
 			   	
 			   	</Switch>
 
 	   		</div>	
-	   </BrowserRouter>
+	   </HashRouter>
   </Provider>
   , document.querySelector('.container-fluid'));
