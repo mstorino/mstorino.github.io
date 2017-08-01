@@ -378,8 +378,12 @@ ul.aboutLinks li:hover{
 	border-bottom: 10px solid mistyrose;
 	border-right: 10px solid papayawhip;
 	border-left: 10px solid mistyrose;*/
-	padding-top:20px;
+	/*padding-top:20px;*/
 	padding-bottom:30px;
+
+	padding-top:5%;
+
+
 }
 
 .codeListContainer {
@@ -411,10 +415,7 @@ ul.aboutLinks li:hover{
 	padding-bottom: 10px;
 }
 
-.codeHero {
-	padding-top:10%;
 
-}
 
 .codeh3{
 	line-height: 30px;
@@ -489,16 +490,16 @@ ul.aboutLinks li:hover{
 }
 
 @-webkit-keyframes moveX {
-  from { left: 0; } to { left: 440px; }
+  from { left: 0; } to { left: 93%; }
 }
 @-moz-keyframes moveX {
-  from { left: 0; } to { left: 440px; }
+  from { left: 0; } to { left: 93%; }
 }
 @-o-keyframes moveX {
-  from { left: 0; } to { left: 440px; }
+  from { left: 0; } to { left: 93%; }
 }
 @keyframes moveX {
-  from { left: 0; } to { left: 440px; }
+  from { left: 0; } to { left: 93%; }
 }
 @-webkit-keyframes moveY {
   from { top: 0; } to { top: 240px; }

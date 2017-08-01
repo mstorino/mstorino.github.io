@@ -20,7 +20,7 @@ export default class Code extends Component {
 
                   
                 
-              <h1>I build beautiful interactive websites.</h1>
+              <h1>I build fun interactive websites.</h1>
 
               <h3 className="codeh3">My apps are below.  If you have a second, <br /> click one to see the details.</h3>
 
