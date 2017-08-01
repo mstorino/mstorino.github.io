@@ -27348,7 +27348,7 @@
 	              _react2.default.createElement(
 	                'h1',
 	                null,
-	                'I build beautiful interactive websites.'
+	                'I build fun interactive websites.'
 	              ),
 	              _react2.default.createElement(
 	                'h3',
