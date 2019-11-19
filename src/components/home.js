@@ -48,11 +48,11 @@ export default class Home extends Component {
 
 		        <span>Hi there!</span>
 		        <br/>
-		        <span> I am a </span>
+		        <span className = "role">I am a </span>
 		        <div className="rw-words rw-words-1">
 		          <span>developer</span>
 		          <span>viral blogger</span>
-		          <span>designer</span>
+		          <span>teacher</span>
 		          <span>lawyer</span>
 		          <span>mom</span>
 		        </div>

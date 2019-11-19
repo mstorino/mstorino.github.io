@@ -472,7 +472,9 @@ ul.aboutLinks li:hover{
 	text-transform: none;
 }
 
-
+.role {
+	padding-right: 12px;
+}
 
 .unicorn {
 /*   display: block; */
